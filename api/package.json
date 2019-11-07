@@ -1,0 +1,22 @@
+{
+  "name": "msclientauth",
+  "version": "1.0.0",
+  "description": "microservicio de autenticacion de usuario, encargado de validar las credenciales para ingresar a los sistemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "author": "josesleiter@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11",
+    "nodemailer": "^6.3.1",
+    "nodemon": "^1.19.1"
+  }
+}
